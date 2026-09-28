@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container label{
+    font-weight: 100;
+    margin-right: 10em;
+    margin-bottom: 0;
+}
+.container input, select{
+    width: 70%;
+    background: none;
+    border: solid 1px rgb(28, 28, 59);
+    color: whitesmoke;
+    padding: 5px;
+    font-weight: 100;
+}
+.container input:focus, select:focus{
+    outline: none;
+    border: solid rgb(110, 44, 55) 1px;
+    box-shadow: 1px 1px 5px rgb(187, 49, 72);
+}
+.container select {
+    margin: 15px 0;
+    color: rgb(1, 1, 59);
+}
+#logreg{
+    background: rgb(202, 0, 34);
+    font-weight: bold;
+    border-radius: 20px;
+}
+.divider{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #4c5980;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.divider::before, .divider::after{
+    margin: 5px 0;
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: rgb(120, 150, 210,0.18);
+}
+.gender{
+    margin: 20px 0;
+}
+.gender input{
+    width: 6%;
+}
+.gender label{
+    margin: 0;
+    margin-right: 65px;
+}
+
+/* Profile Styling */
+/* side bar */
+.side-bar{
+    height: 42em;
+    padding: 20px;
+    border-right: 0.2px solid rgb(27, 27, 92);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    /* overflow-y: auto; */
+    z-index: 1000;
+}
+.side-bar .top h3{
+    font-size: 1.5em;
+}
+.side-bar hr{
+    color: rgb(55, 55, 167);
+}
+.side-bar .links a, .logout a{
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+}
+.side-bar .links p, .logout p{
+    border-radius: 10px;
+    margin-bottom: 1em;
+    padding: 7px;
+}
+.side-bar .links p:hover, .logout p:hover{
+    background: rgb(1, 1, 129);
+}
+/* Main section */
+#main{
+    margin-left: 16.667%;
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 16.667%;
+    width: 83.3333%;
+    height: 60px;
+    z-index: 999;
+}
+.head hr{
+    width: 98%;
+    margin-left: 2%;
+}
+.head .burger{
+    padding-left: 25px;
+}
+#main .head img{
+    border-radius: 20px;
+}
+.prof p i{
+    font-size: 10px;
+}
+.burger i{
+    color: whitesmoke;
+}
+.burger i:hover{
+    color: rgb(0, 0, 172);
+}
+.heading{
+    margin-top: 7rem;
+}
+.heading p a{
+    text-decoration: none;
+    color: rgb(1, 1, 180);
+}
+.heading p a:hover{
+    color: rgb(211, 210, 210);
+}
+/* Section 1 here */
+.section1, .section2{
+    padding: 20px;
+    background: rgb(11, 20, 71);
+    margin: 2.5rem;
+    border-radius: 30px;
+    color: rgb(221, 220, 220);
+}
+.section1 .button{
+    justify-content: end;
+    display: flex;
+}
+.section1 .button .btn{
+    background: rgb(214, 51, 132);
+    text-decoration: none;
+    color: white;
+}
+.section1 .col-md-4{
+    text-align: center;
+    border-right: 1px solid rgb(24, 30, 82);
+}
+.section1 .col-md-4 img{
+    border-radius: 50%;
+    border: 2px solid rgb(4, 1, 197);
+}
+.section1 .col-md-4 .btn{
+    border:1px solid rgb(214, 51, 132);
+    color: rgb(214, 51, 132);
+}
+.section1 .col-md-4 .btn:hover{
+    background: rgb(214, 51, 132);
+    color: white;
+}
+.section1 .col-md-8{
+    padding: 0 30px;
+}
+.section1 .col-md-8 hr{
+    color: rgb(71, 71, 223);
+    margin: 10px 0;
+}
+.section1 .col-md-8 i{
+    color: rgb(20, 20, 168);
+}
+/* Section2 here */
+.section2 .col-md-3{
+    text-align: center;
+    border-right: 1px solid rgb(27, 27, 92);
+}
+.section2 h6{
+    margin-bottom: 40px;
+}
+.section2 h6 i{
+    color: rgb(226, 30, 62);
+}
+.section2 .col-md-3 .icon{
+    /* background: gray; */
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.section2 .col-md-3 p{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.section2 .blue{
+    background: rgb(85, 85, 255);
+    color: rgb(0, 0, 122);
+}
+.section2 .pink{
+    background: rgb(252, 140, 196);
+    color: rgb(143, 0, 71);
+}
+.section2 p {
+    margin-top: 2rem;
+}
